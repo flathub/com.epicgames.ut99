@@ -30,16 +30,16 @@ modules:
         filename: OldUnreal-UTPatch.tar.bz2
         only-arches:
           - aarch64
-        url: https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469d-rc4/OldUnreal-UTPatch469d-Linux-arm64.tar.bz2
-        sha256: ea755af95ce4be08614714082f1775d4e7b981f2f78849613e955486d15f72af
-        size: 76437665
+        url: https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469d/OldUnreal-UTPatch469d-Linux-arm64.tar.bz2
+        sha256: d9ef651c1d768cb4d1f146287cb58bee0834a9bd88a8593a78d0f74f956a031d
+        size: 73132825
       - type: extra-data
         filename: OldUnreal-UTPatch.tar.bz2
         only-arches:
           - x86_64
-        url: https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469d-rc4/OldUnreal-UTPatch469d-Linux-amd64.tar.bz2
-        sha256: 8a7e6c9b1a350eb332ec86fd19079464455370018be79a9e2ff08f3dfd03a36a
-        size: 74058974
+        url: https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469d/OldUnreal-UTPatch469d-Linux-amd64.tar.bz2
+        sha256: 6a81b35ae6a4c0dfce2f8fb152af16129776735aeb34dfc391f7c8daf0d51a3b
+        size: 73973312
       - type: script
         dest-filename: apply_extra
         commands:
