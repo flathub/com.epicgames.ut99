@@ -27,7 +27,9 @@
     <screenshot><image>https://cdn.cloudflare.steamstatic.com/steam/apps/13240/0000003787.1920x1080.jpg</image></screenshot>
     <screenshot><image>https://cdn.cloudflare.steamstatic.com/steam/apps/13240/0000003790.1920x1080.jpg</image></screenshot>
   </screenshots>
-  <developer_name>Epic Games</developer_name>
+  <developer id="com.epicgames">
+    <name>Epic Games</name>
+  </developer>
   <releases>
     <release version="469e" date="2025-11-13"/>
     <release version="469d" date="2023-12-11"/>
