@@ -33,6 +33,11 @@ modules:
         url: https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469e/OldUnreal-UTPatch469e-Linux-arm64.tar.bz2
         sha256: 4c3978073b12b049c3ffdeb4d275cfc7a2313650f3eb5b94db06fbfee77c3e3b
         size: 74481975
+        x-checker-data:
+          type: anitya
+          project-id: 393512
+          stable-only: true
+          url-template: https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v$version/OldUnreal-UTPatch$version-Linux-arm64.tar.bz2
       - type: extra-data
         filename: OldUnreal-UTPatch.tar.bz2
         only-arches:
@@ -40,6 +45,11 @@ modules:
         url: https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469e/OldUnreal-UTPatch469e-Linux-amd64.tar.bz2
         sha256: 08c806aa3721b1970045aa158ad90051329d982e8a9a3661153900e9ccbf6b0c
         size: 75316202
+        x-checker-data:
+          type: anitya
+          project-id: 393512
+          stable-only: true
+          url-template: https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v$version/OldUnreal-UTPatch$version-Linux-amd64.tar.bz2
       - type: script
         dest-filename: apply_extra
         commands:
